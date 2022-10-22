@@ -81,6 +81,27 @@ body {
     }
 }
 
+select{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    background-color: #282c34;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    width: 90%;
+    // margin-left: 30px;
+    margin-bottom: 30px;
+    &:hover{
+        background-color: #ffffff70;
+        color: #282c34;
+    }
+    &:active{
+        background-color: #282c34;
+        color: #ffffff;
+    }
+}
+
 // Date input component
 // Input type = date
 input[type="date"] {

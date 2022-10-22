@@ -107,6 +107,28 @@ body {
   color: #ffffff;
 }
 
+select {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #282c34;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+select:hover {
+  background-color: #ffffff70;
+  color: #282c34;
+}
+
+select:active {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
 input[type="date"] {
   width: calc(-webkit-fit-content);
   width: calc(-moz-fit-content);
