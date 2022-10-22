@@ -1,0 +1,134 @@
+body {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: white;
+}
+
+.mainDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.mainDiv .one:hover {
+  z-index: 9;
+  background-color: #ffffff14;
+}
+
+.mainDiv .one:not(:last-child) {
+  -webkit-border-end: 1px solid #ffffff;
+          border-inline-end: 1px solid #ffffff;
+}
+
+.resultDiv {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.resultDiv .resultNumbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: row;
+}
+
+.resultDiv .resultNumbers .indiResult {
+  width: 100px;
+}
+
+.resultDiv .resultNumbers .number {
+  margin: 0 10px;
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
+}
+
+.datediv {
+  padding: 0 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-border-end: 1px solid #ffffff;
+          border-inline-end: 1px solid #ffffff;
+}
+
+.datediv button {
+  margin-top: 25px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  background-color: #282c34;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.datediv button:hover {
+  background-color: #ffffff70;
+  color: #282c34;
+}
+
+.datediv button:active {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+input[type="date"] {
+  width: calc(-webkit-fit-content);
+  width: calc(-moz-fit-content);
+  width: calc(fit-content);
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  text-align: center;
+}
+/*# sourceMappingURL=Style.css.map */

@@ -1,0 +1,103 @@
+body {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+    color: white;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: row;
+    .one{
+        &:hover{
+            z-index: 9;
+            // height: 400px;
+            background-color: #ffffff14;
+        }
+    }
+    .one:not(:last-child) {
+        border-inline-end: 1px solid #ffffff;
+    }
+}
+.resultDiv {
+    width: 400px;
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .resultNumbers {
+        display: flex;
+        display: row;
+        .indiResult{
+            width: 100px;
+            // border: 1px solid blue;
+        }
+        .number{
+            margin: 0 10px;
+            font-size: 40px;
+            color: green;
+            font-weight: bold;
+        }
+    }
+}
+
+.datediv {
+    // border: 1px solid #ffffff;
+    // border-top-left-radius: 10px 50px;
+    // border-bottom-right-radius: 25% 50%;
+    padding: 0 60px;
+    // margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    // &:last-child {
+    //     margin-top: 25px;
+    // }
+    border-inline-end: 1px solid #ffffff;
+    button{
+        margin-top: 25px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #ffffff;
+        background-color: #282c34;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        &:hover{
+            background-color: #ffffff70;
+            color: #282c34;
+        }
+        &:active{
+            background-color: #282c34;
+            color: #ffffff;
+        }
+
+    }
+}
+
+// Date input component
+// Input type = date
+input[type="date"] {
+    width: calc(fit-content);
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    text-align: center;
+}
